@@ -1,0 +1,268 @@
+header {
+    padding: 20px 0;
+}
+
+body{
+    background-color: #F5F5F5;
+}
+
+.encabezado{
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#logo_fulana{
+    display: inline;
+    width: 3.8%;
+    height: 3.8%;
+}
+
+#fulana{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18.78px;
+    color: #464646;
+    display: inline;
+    padding-right: 50px;
+    position: absolute;
+    top:10px;
+    left: 40px;
+}
+
+#nav-superior{
+    position: absolute;
+    top:10px;
+    right: 0;
+}
+
+#nav-superior li{
+   
+display: inline;
+font-family: 'Raleway', sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 18.78px;
+margin: 0 0 0 20px;
+
+color: #464646;
+ 
+}
+
+.destaque{
+    font-weight: 700;
+}
+
+main {
+    height: fit-content;
+    
+}
+
+#descripcion {
+    width: 730px;
+    position: relative;
+    text-align: justify;
+    margin-left: 190px; 
+       
+}
+
+#presentacion1 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #464646;
+
+    padding-top: 24px;
+    display: inline-block;
+}
+
+#presentacion2 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+    padding-top: 24px;
+    display: inline-block;
+}
+
+#foto {
+    width: 30%;
+    height: 85%;
+    border-radius: 50%;
+    position: absolute;
+    top: 35px;
+    left: 780px;
+}
+
+#redes-sociales{
+    height: fit-content;
+}
+
+#nav-inferior {
+    position:relative;
+    top: 40px;
+    left: 150px;
+}
+
+#nav-inferior li {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    display: inline-block;
+    color: #464646;
+}
+
+#lista-redes{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.iconify-inline {
+    width: 2.5%;
+    margin-left: 40px;
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+#seccion-sobre-mi {
+    width: 100%;
+    background: #EAF2FD;
+}
+
+#sobre-mi {
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 38px;
+
+color: #464646;
+margin-top: 120px;
+padding-left: 190px;
+padding-top: 30px;
+
+}
+
+.texto-sobre-mi{
+    color: #464646;
+    padding-left: 190px;
+    padding-top: 14px;
+    padding-bottom: 10px;
+
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #464646;
+    width: 1000px;
+    position: relative;
+    
+}
+
+#firma{
+    margin-left: 185px;
+    margin-top: 10px;
+    width: 10%;
+}
+
+#skills, #hobbies, .formacion-academica{
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    
+    color: #464646;
+    margin: 40px 0;
+    text-align: center;
+}
+
+.lista-skills, .lista-hobbies, .lista-formaciones {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.lista-skills li, .lista-hobbies li{
+    display: inline-block;
+    width: 15%;
+    padding: 95px 15px 0 15px;
+    vertical-align: bottom;
+    box-sizing: border-box;
+    background-color: white;
+    margin: 0 10px;
+
+    position: static;
+    width: 176px;
+    height: 174px;
+    left: 768px;
+    top: 0px;
+
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #464646;
+    }
+
+    .lista-skills p, .lista-hobbies p, .lista-formaciones p{
+        padding-top: 15px;
+    }
+
+    #icono-git, #icono-trello, #icono-trekking, #icono-natacion, #icono-astronomia, #icono-robotica{
+        width:20%    
+    }
+
+    #icono-viajar{
+        width: 25%;
+    
+    }
+
+    #icono-utn, #icono-alura{
+        width: 100%;
+    }
+
+    .lista-formaciones li{
+        display: inline-block;
+        width: 45%;
+        padding: 95px 15px 0 15px;
+        vertical-align: center;
+        box-sizing: border-box;
+        background-color: white;
+        margin: 0 10px;
+    
+        position: static;
+        width: 276px;
+        height: 274px;
+        left: 768px;
+        top: 0px;
+    
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+    
+        color: #464646;
+        }
+
+
