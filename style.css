@@ -139,12 +139,12 @@ main {
     margin-top: 0;
 }
 
-#seccion-sobre-mi {
+#seccion-sobre-mi, #seccion-formacion {
     width: 100%;
     background: #EAF2FD;
 }
 
-#sobre-mi {
+#sobre-mi, .formacion-academica {
 font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: bold;
@@ -152,10 +152,10 @@ font-size: 32px;
 line-height: 38px;
 
 color: #464646;
-margin-top: 120px;
+margin-top: 100px;
 padding-left: 190px;
-padding-top: 30px;
-
+padding-top: 50px;
+padding-bottom: 20px;
 }
 
 .texto-sobre-mi{
@@ -182,7 +182,7 @@ padding-top: 30px;
     width: 10%;
 }
 
-#skills, #hobbies, .formacion-academica{
+#skills, #hobbies{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -228,7 +228,7 @@ padding-top: 30px;
         padding-top: 15px;
     }
 
-    #icono-git, #icono-trello, #icono-trekking, #icono-natacion, #icono-astronomia, #icono-robotica{
+    #icono-git, #icono-trekking, #icono-natacion, #icono-astronomia, #icono-robotica{
         width:20%    
     }
 
@@ -238,14 +238,13 @@ padding-top: 30px;
     }
 
     #icono-utn, #icono-alura{
-        width: 100%;
+        width: 90%;
+        
     }
 
     .lista-formaciones li{
         display: inline-block;
-        width: 45%;
         padding: 95px 15px 0 15px;
-        vertical-align: center;
         box-sizing: border-box;
         background-color: white;
         margin: 0 10px;
