@@ -144,7 +144,7 @@ main {
     background: #EAF2FD;
 }
 
-#sobre-mi, .formacion-academica {
+#sobre-mi{
 font-family: 'Raleway', sans-serif;
 font-style: normal;
 font-weight: bold;
@@ -182,7 +182,7 @@ padding-bottom: 20px;
     width: 10%;
 }
 
-#skills, #hobbies{
+#skills, #hobbies, .formacion-academica, #experiencia-prof{
     font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -244,10 +244,10 @@ padding-bottom: 20px;
 
     .lista-formaciones li{
         display: inline-block;
-        padding: 95px 15px 0 15px;
+        padding: 40px 35px 30px 35px;
         box-sizing: border-box;
         background-color: white;
-        margin: 0 10px;
+        margin: 20px 10px;
     
         position: static;
         width: 276px;
@@ -264,4 +264,38 @@ padding-bottom: 20px;
         color: #464646;
         }
 
+        #img-encriptador{
+            align-items: left;
+            display: inline-block;
+        }
 
+        #encriptador{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 22px;
+            line-height: 26px;
+            color: #464646;
+            display: inline-block;
+            margin: 8px 0px;
+        }
+            
+        .alura-codif{
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;      
+            color: #464646;
+        }
+
+        .demo{
+            background: #F5F5F5;
+            height: 19px;
+            width: 84px;
+            left: 16px;
+            top: 16px;
+            border-radius: nullpx;
+
+
+        }
