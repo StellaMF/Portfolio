@@ -2,8 +2,13 @@ header {
     padding: 20px 0;
 }
 
+html{
+    width:fit-content;
+}
+
 body{
     background-color: #F5F5F5;
+    width: fit-content;
 }
 
 .encabezado{
@@ -49,7 +54,11 @@ line-height: 18.78px;
 margin: 0 0 0 20px;
 
 color: #464646;
- 
+}
+
+#nav-superior li a{
+    text-decoration: none;
+    
 }
 
 .destaque{
@@ -58,7 +67,6 @@ color: #464646;
 
 main {
     height: fit-content;
-    
 }
 
 #descripcion {
@@ -121,6 +129,10 @@ main {
     color: #464646;
 }
 
+#nav-inferior li a{
+    text-decoration: none;
+}
+
 #lista-redes{
     text-decoration: none;
     display: flex;
@@ -139,7 +151,7 @@ main {
     margin-top: 0;
 }
 
-#seccion-sobre-mi, #seccion-formacion {
+#seccion-sobre-mi, #seccion-formacion{
     width: 100%;
     background: #EAF2FD;
 }
@@ -154,6 +166,7 @@ line-height: 38px;
 color: #464646;
 margin-top: 100px;
 padding-left: 190px;
+text-align: justify;
 padding-top: 50px;
 padding-bottom: 20px;
 }
@@ -194,7 +207,7 @@ padding-bottom: 20px;
     text-align: center;
 }
 
-.lista-skills, .lista-hobbies, .lista-formaciones {
+.lista-skills, .lista-hobbies, .lista-formaciones, #experiencia {
     width: 1000px;
     margin: 0 auto;
 }
@@ -247,7 +260,7 @@ padding-bottom: 20px;
         padding: 40px 35px 30px 35px;
         box-sizing: border-box;
         background-color: white;
-        margin: 20px 10px;
+        margin: 20px 23px;
     
         position: static;
         width: 276px;
@@ -264,12 +277,17 @@ padding-bottom: 20px;
         color: #464646;
         }
 
-        #img-encriptador{
-            align-items: left;
-            display: inline-block;
+        .encriptador, .ahorcado{
+            display:flex;
+            
         }
 
-        #encriptador{
+        #img-encriptador{
+            display: inline-block;
+            margin-bottom: 50px
+        }
+
+        #encriptador, #ahorcado{
             font-family: 'Raleway';
             font-style: normal;
             font-weight: 700;
@@ -277,7 +295,8 @@ padding-bottom: 20px;
             line-height: 26px;
             color: #464646;
             display: inline-block;
-            margin: 8px 0px;
+            margin: 50px 20px 20px 0px;
+        
         }
             
         .alura-codif{
@@ -287,15 +306,362 @@ padding-bottom: 20px;
             font-size: 16px;
             line-height: 19px;      
             color: #464646;
+            display:inline-block;
+            margin-bottom: 15px;
+    
         }
 
         .demo{
             background: #F5F5F5;
-            height: 19px;
-            width: 84px;
-            left: 16px;
-            top: 16px;
+            width: 105px;
+            height: 51px;
+            left: 132px;
+            top: 0px;
             border-radius: nullpx;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            border-color: #2A7AE4;
+        }
 
+        .demo a{
+            text-decoration: none;
+            color: #2A7AE4;
+        }
 
+        .repo{
+           
+            width: 105px;
+            height: 51px;
+            left: 132px;
+            top: 0px;
+            border-radius: nullpx;
+            font-family: 'Raleway';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: white;
+            background-color: #2A7AE4;
+            border-color: #2A7AE4;
+            margin-left: 10px;
+        }
+
+        .repo a{
+            text-decoration: none;
+            color: white;
+            
+        }
+
+        .img-ahorcado{
+            width: 30%;
+            margin-left: 30px;
+            margin-bottom: 30px;
+        }
+
+                
+        footer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+       
+        flex: none;
+        order: 5;
+        flex-grow: 0;
+        margin: 52px 0px;
+        }
+
+        .contenedor-contacto{
+        display: flex;
+        flex-direction: column;
+        background: #EAF2FD;
+        width: fit-content;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 0px;
+        }
+
+        .cuadro-contacto{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 24px 0px 0px;
+
+        position: static;
+        width: 1000px;
+        height: 690px;
+        left: 15px;
+        top: 64px;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 10px 0px;
+        }
+
+        .contenedor-contacto img{
+        position: static;
+        width: 464px;
+        height: 593px;
+        left: 0px;
+        top: 65.5px;
+
+        background: url(.jpg), #EDEDED;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 16px;
+        }
+
+        .contacto{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        position: static;
+        width: 590px;
+        height: 596px;
+        left: 480px;
+        top: 64px;
+
+        flex: none;
+        order: 1;
+        flex-grow: 1;
+        margin: 0px 16px;
+        }
+
+        .contacto-info{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            padding: 0px;
+            
+            position: static;
+            width: 590px;
+            height: 84px;
+            left: 0px;
+            top: 0px;
+            
+            flex: none;
+            order: 0;
+            flex-grow: 0;
+        }
+
+        .contacto-info span{
+            position: static;
+        width: 141px;
+        height: 38px;
+        left: 0px;
+        top: 0px;
+
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 32px;
+        line-height: 38px;
+        color: #464646;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 8px 0px;
+        }
+
+        .contacto p{
+        position: static;
+        width: 590px;
+        height: 38px;
+        left: 0px;
+        top: 46px;
+
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #464646;
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 8px 0px;
+        }
+
+        .formulario{
+        display: inline;
+        height: 397px;
+        margin: 32px 0px;
+        font-family: Raleway;
+        }
+
+        #nombre{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        font-family: Raleway;
+
+        position: static;
+        width: 460px;
+        height: 56px;
+        left: 0px;
+        top: 0px;
+
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 32px 0px;
+        }
+
+        #email-contacto{
+            display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+
+        position: static;
+        width: 460px;
+        height: 56px;
+        left: 0px;
+        top: 88px;
+
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 32px 0px;
+        font-family: Raleway;
+        }
+
+        #asunto{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        font-family: Raleway;
+
+        position: static;
+        width: 460px;
+        height: 56px;
+        left: 0px;
+        top: 176px;
+
+        flex: none;
+        order: 2;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 32px 0px;
+        }
+
+        #mensaje{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding-top: 10px;
+        font-family: Raleway;
+
+        position: static;
+        width: 460px;
+        height: 133px;
+        left: 0px;
+        top: 264px;
+
+        flex: none;
+        order: 3;
+        align-self: stretch;
+        flex-grow: 0;
+        margin: 32px 0px;
+        }
+
+        #btn-enviar{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+
+        position: static;
+        width: 144px;
+        height: 51px;
+        left: 0px;
+        top: 545px;
+
+        background: #2A7AE4;
+
+        flex: none;
+        order: 2;
+        flex-grow: 0;
+        margin: 32px 0px;
+        }
+
+        #btn-enviar span{
+        position: static;
+        width: 112px;
+        height: 19px;
+        left: 16px;
+        top: 16px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #FFFFFF;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
+        }
+
+        .pie-pagina{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 45px;
+
+        position: static;
+        width: 100%;
+        left: 0px;
+        top: 388px;
+
+        background: #FFFFFF;
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+        margin: 0px 0px;
+        }
+
+        .pie-pagina span{
+        position: static;
+        width: 290px;
+        height: 38px;
+        left: 605.5px;
+        top: 32px;
+
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+
+        color: #464646;
+
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 0px 10px;
         }

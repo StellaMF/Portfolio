@@ -21,12 +21,13 @@
 
             <nav id="nav-superior">
                 <ul>
-                    <li>Sobre mi</li>
-                    <li>Skills</li>
-                    <li>Hobbies</li>
-                    <li>Formación</li>
-                    <li>Proyectos</li>
-                    <li class="destaque">ferreyra123@gmail.com</li>
+                    <li><a href="#sobre-mi">Sobre mi</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#seccion-formacion">Formación</a></li>
+                    <li><a href="#experiencia">Proyectos</a></li>
+                    <li class="destaque"><a href="mailto:ferreyra123@gmail.com" id="email">ferreyra123@gmail.com</a></li>
+                
                 </ul>
             </nav>
         </div>
@@ -132,7 +133,7 @@
                 </li> 
                 <li>
                     <img id="icono-alura" src="Imagenes/image 8alura.jpg">
-                    <p>Programador Junior</p>
+                    <p>Html 5/ CCS3/ JavaScript</p>
                     <p>en curso</p>
                 </li>
             </ul>
@@ -149,18 +150,56 @@
                 <img src="Imagenes/encriptador.png" id="img-encriptador" alt="encriptador">
                 </div>
 
-
-
-
+                <div class="ahorcado">
+                    <div>
+                        <h2 id="ahorcado">Juego del Ahorcado</h2>
+                        <p class="alura-codif">Challenge Alura Juego del Ahorcado</p>
+                        <button class="demo"><a href="https://stellamf.github.io/challenge-oracle-hangman-esp-main/"> Ver demo</a></button><button class="repo"><a href="https://github.com/StellaMF/challenge-oracle-hangman-esp-main">Repositorio </a></button>
+                    </div>
+                    <img src="Imagenes/ahorcado1.JPG" class="img-ahorcado" alt="Horca">
+                    <img src="Imagenes/ahorcado2.JPG" class="img-ahorcado" alt="Ganaste">
+                    </div>
                 </ul>
             </div>
-        </section>
+            
+            <div class="contenedor-contacto">
+                
+                <div class="cuadro-contacto">
+                    <img src="Imagenes/telefono.png">
+                    
+                    <div class="contacto">
+                        <div class="contacto-info">
+                            <span>Contacto</span>
+                            <p>¿Quieres contactarme?
+                            Por favor, completa el siguiente formulario y te contactaré a la brevedad.</p>
+                    
+                        </div>
+
+                        <section class="formulario">
+                            <form name="form" class="formulario">
+                            <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+                            <input type="email" id="email-contacto" name="email" placeholder="Correo electrónico">
+                            <input type="text" id="asunto" name="asunto" placeholder="Asunto">
+                            <textarea cols="70" rows="10" name="mensaje" id="mensaje" placeholder="Mensaje" ></textarea>
+                            <button id="btn-enviar" type="submit" >Enviar datos</button>
+
+                        </form>
+                        </section>
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <div class="pie-pagina">
+                <span>Desarrollado por Stella Maris Ferreyra 2022</span>
+            </div>
+        </footer>
 
 
         
     </main>
 </body>
-<footer>
-
-</footer>
+<script src="validacion.js"></script>
 </html>
